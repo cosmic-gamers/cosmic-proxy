@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Cosmic</title>
+  <link href="assets/images/branding/favicon/favicon.png" rel="icon" type="image/x-icon" />
+  <meta name="description"
+    content="From studio portraits to epic alpine landscapes, browse the best photography, retouching and photojournalism today." />
+  <!-- Main Scripts-->
+  <script src="resources/js/index.js"></script>
+  <script src="./uv/uv.bundle.js"></script>
+  <script src="./uv/uv.config.js"></script>
+  <script src="resources/js/visit.js"></script>
+  <script src="resources/js/go.js"></script>
+  <!-- Extra Scripts-->
+  <script src="assets/js/panic.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="/assets/js/themecontrol.js"></script>
+  <link href="assets/css/settings/main.css" rel="stylesheet" />
+  <link href="assets/css/nav.css" rel="stylesheet" />
+  <link href="assets/css/apps.css" rel="stylesheet" />
+  <link rel="stylesheet" href="resources/css/main.css">
+</head>
+
+<body>
+  <!-- Nav Bar Start-->
+  <div class="header2">
+    <br>
+    <a href="/../" class="logo">Cosmic</a>
+    <div class="header2-right">
+      <a href="photography">Search</a>
+      <a href="mathematics">Games</a>
+      <a href="ocean">Apps</a>
+      <a href="forest">Logs</a>
+      <a href="settings">Settings</a>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!-- Nav Bar End-->
+  <br>
+  <div>
+    <input class="searchbar" id="searchbar" name="search" onkeyup="search_animal()" placeholder="Search.."
+      tag="searchbar" type="text" />
+  </div>
+  <script>
+    const searchbar = document.getElementById("searchbar");
+    searchbar.addEventListener("input", function () {
+      if (searchbar.value === '') {
+        // Code to execute if input field is empty
+        searchbar.style.width = "25%";
+        searchbar.style.height = "60px";
+      } else {
+        // Code to execute if input field is not empty
+        searchbar.style.width = "70%";
+        searchbar.style.height = "60px";
+      }
+    });
+  </script>
+  <br>
+  <br>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy">
+        <a onclick="go('http://chat.shuttle.rip/')">
+          <img loading="lazy" src="/assets/images/icons/chatgpt.png" style="border-radius: 25px;" />
+        </a>
+        <p3>ChatGPT Clone</p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy">
+        <a class="game" onclick="go('https://discord.com')">
+          <img loading="lazy" src="/assets/images/icons/apps/discord.jpg" style="border-radius: 25px;" />
+        </a>
+        <p3>Discord</p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy">
+        <a class="game" onclick="go('https://github.com/')">
+          <img loading="lazy" src="/assets/images/icons/apps/github.png" style="border-radius: 25px;" />
+        </a>
+        <p3> Github </p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy">
+        <a class="game" onclick="go('https://pixlr.com/')">
+          <img loading="lazy" src="/assets/images/icons/pix.png" style="border-radius: 25px;" />
+        </a>
+        <p3> Pixlr </p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy">
+        <a class="game" onclick="go('https://web.telegram.org/')">
+          <img loading="lazy" src="/assets/images/icons/apps/telegram.png" style="border-radius: 25px;" />
+        </a>
+        <p3> Telegram </p3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span1">
+      <div class="card animals" loading="lazy">
+        <a class="game" onclick="go('https://web.whatsapp.com/')">
+          <img loading="lazy" src="/assets/images/icons/apps/whatsapp.png" style="border-radius: 25px;" />
+        </a>
+        <p3> Whatsapp </p3>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <link href="assets/images/branding/favicon/Cosmic.png" rel="shortcut icon" type="image/x-icon" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKJQ5QHQTJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-WKJQ5QHQTJ');
+  </script>
+  <script>
+    function gfn() {
+      alert('Geforce NOW is currently having some issues for some users, we are aware of this issue and are working to fix it.')
+    }
+  </script>
+  
+</body>
+</html>
