@@ -31,6 +31,8 @@ Cosmic is one of the top proxies known for its blazing fast speeds and an extens
 [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/apps/deploy?type=git&repository=github.com/alphaotuken/cosmic-proxy&branch=main&name=interstellar&run_command=npm%start)
 [![Run on Google Cloud](https://camo.githubusercontent.com/4fab2bbebcae1fe689b7d3eba3b89e309169215055849590724fd6e13333558c/68747470733a2f2f62696e6261736862616e616e612e6769746875622e696f2f6465706c6f792d627574746f6e732f627574746f6e732f72656d6164652f676f6f676c65636c6f75642e737667)](https://deploy.cloud.run/?git_repo=https://github.com/alphaotuken/cosmic-proxy)
 
+### Preview
+![image](https://github.com/cosmic-gamers/cosmic-proxy/assets/139851008/55ec2781-28fc-43c4-923b-d28863e134bc)
 
 # Contributors 
 Thank you to everyone who has contributed to Cosmic!
